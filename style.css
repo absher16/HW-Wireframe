@@ -45,6 +45,9 @@ nav {
 	padding-top: 35px;
 }
 
+/*Full disclosure: I doubt that this float-left-float-right method will look good as I add more content to 
+the paragraph box.*/
+
 .box-1 {
 	float: left;
 	width: 60%;
@@ -96,6 +99,7 @@ aside {
 	height: 230px;
 	margin-top: 205px;
 	text-align: center;
-	padding-top: 25px;
+	padding-top: 25px; /*The padding-top is different in the aside from .box-1. The height of .box-1 is more than
+	the height of the aside, so that their top and bottom match up.*/
 }
 
